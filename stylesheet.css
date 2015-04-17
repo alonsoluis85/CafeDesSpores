@@ -1,0 +1,397 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden],
+template {
+    display: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+dfn {
+    font-style: italic;
+}
+
+h1 {
+    margin: .67em 0;
+    font-size: 2em;
+}
+
+mark {
+    color: #000;
+    background: #ff0;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -.5em;
+}
+
+sub {
+    bottom: -.25em;
+}
+
+img {
+    border: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+figure {
+    margin: 1em 40px;
+}
+
+hr {
+    height: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+pre {
+    overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+input[type="search"] {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+fieldset {
+    padding: .35em .625em .75em;
+    margin: 0 2px;
+    border: 1px solid #c0c0c0;
+}
+
+legend {
+    padding: 0;
+    border: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+optgroup {
+    font-weight: bold;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 0;
+}
+/*
+Box-sizing fix ------------------------------------------------
+*/
+
+* {
+    box-sizing: border-box;
+}
+/*
+Fonts ---------------------------------------------------------
+*/
+/*
+CSS -----------------------------------------------------------
+*/
+
+html {
+    font-family: 'oswald', sans-serif;
+    font-weight: ;
+}
+
+body {
+    background: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.4em;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: auto;
+}
+
+header {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+#spore {
+    margin-top: 15px;
+    width: 180px;
+    min-width: 200px;
+    max-width: 350px;
+}
+
+#title {
+    margin: 0 auto 10px auto;
+    text-align: center;
+}
+
+#mushrooms {
+    background-image: url(nav_mushroom.png), url(nav_mushroom_2.png);
+    background-position: center, right;
+    background-repeat: repeat-x;
+    background-size: contain;
+    min-height: 200px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#contact_mobile {
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    width: 250px;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+#contact_mobile p {
+    font-size: 0.9em;
+    margin: 3px 0;
+}
+
+#contact_desktop p {
+    display: inline-block;
+    font-size: 1.4em;
+    line-height: 2;
+    padding: 0 10px;
+}
+
+nav {
+    font-size: 2em;
+    margin: 0 auto;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 8px 5px;
+}
+
+nav a {
+    background: white;
+    color: black;
+    padding: 3px 10px;
+}
+
+#menu {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#paper {
+    background: white;
+    color: black;
+    font-size: 1em;
+    width: 320px;
+    line-height: 1.3;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#paper img {
+    width: 80%;
+}
+
+#a_boire {
+    font-size: 1.2em;
+    line-height: 1.7;
+}
+
+#a_boire a {
+    background: white;
+    display: inline-block;
+    padding: 3px 6px;
+}
+
+#photos img {
+    width: 100%;
+    margin: 0;
+    max-width: 400px;
+}
+
+#contact p {
+    width: 320px;
+    font-size: 1.2em;
+}
+
+#contact iframe {
+    margin: 15px auto;
+}
+/*
+CSS media queries ---------------------------------------------
+*/
+
+@media (max-width: 600px) {
+    #contact_desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    #contact_mobile {
+        display: none;
+    }
+}
