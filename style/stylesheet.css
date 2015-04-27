@@ -1,16 +1,13 @@
-/*
+/***************************
 Box-sizing fix
-*/
+***************************/
 
 * {
 	box-sizing: border-box;
 }
-/*
-Fonts
-*/
-/*
+/***************************
 Custom CSS
-*/
+***************************/
 
 html {
 	font-family: 'oswald', sans-serif;
@@ -22,9 +19,6 @@ body {
 	text-align: center;
 	width: 100%;
 }
-/*
-General Styling
-*/
 
 h1 {
 	font-size: 2.5em;
@@ -43,9 +37,9 @@ a {
 p {
 	margin: auto;
 }
-/*
+/***************************
 Header
-*/
+***************************/
 
 header {
 	background: black;
@@ -64,7 +58,7 @@ header {
 }
 
 #mushrooms {
-	background-image: url(nav_mushroom.png), url(nav_mushroom_2.png);
+	background-image: url(images/nav_mushroom.png), url(images/nav_mushroom_2.png);
 	background-position: center, right;
 	background-repeat: repeat-x;
 	background-size: contain;
@@ -93,9 +87,9 @@ header {
 	line-height: 2;
 	padding: 0 10px;
 }
-/*
+/***************************
 Navigation
-*/
+***************************/
 
 nav {
 	font-size: 2em;
@@ -117,6 +111,9 @@ nav a {
 	color: black;
 	padding: 3px 10px;
 }
+/***************************
+Menu section
+***************************/
 
 #menu {
 	text-align: center;
@@ -136,6 +133,9 @@ nav a {
 #paper img {
 	width: 80%;
 }
+/***************************
+À boire section
+***************************/
 
 #a_boire {
 	font-size: 1.2em;
@@ -147,12 +147,18 @@ nav a {
 	display: inline-block;
 	padding: 3px 6px;
 }
+/***************************
+Photos section
+***************************/
 
 #photos img {
 	width: 100%;
 	margin: 0;
 	max-width: 400px;
 }
+/***************************
+Contact section
+***************************/
 
 #contact p {
 	width: 320px;
@@ -161,30 +167,4 @@ nav a {
 
 #contact iframe {
 	margin: 15px auto;
-}
-/***************************
-CSS media queries
-***************************/
-
-@media screen and (max-width: 660px) {
-	#contact_desktop {
-		display: none;
-	}
-}
-
-@media screen and (min-width: 660px) {
-	h1 {
-		font-size: 3.5em;
-	}
-	#spore {
-		margin-top: 30px;
-		width: 310px;
-	}
-	#contact_mobile {
-		display: none;
-	}
-	#mushrooms {
-		height: 225px;
-		padding-top: 25px;
-	}
 }

@@ -1,0 +1,34 @@
+/***************************
+CSS media queries
+***************************/
+
+@media screen and (max-width: 660px) {
+	/***************************
+	Header
+	***************************/
+	
+	#contact_desktop {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 660px) {
+	h1 {
+		font-size: 3.5em;
+	}
+	/***************************
+	Header
+	***************************/
+	
+	#spore {
+		margin-top: 30px;
+		width: 310px;
+	}
+	#contact_mobile {
+		display: none;
+	}
+	#mushrooms {
+		height: 225px;
+		padding-top: 25px;
+	}
+}
