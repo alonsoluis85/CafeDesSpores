@@ -58,7 +58,7 @@ header {
 }
 
 #mushrooms {
-	background-image: url(images/nav_mushroom.png), url(images/nav_mushroom_2.png);
+	background-image: url(../images/nav_mushroom.png), url(../images/nav_mushroom_2.png);
 	background-position: center, right;
 	background-repeat: repeat-x;
 	background-size: contain;
